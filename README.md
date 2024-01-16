@@ -1,3 +1,7 @@
+Status:
+
+![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+
 # hello-world
 Michael testing GitHub
 
