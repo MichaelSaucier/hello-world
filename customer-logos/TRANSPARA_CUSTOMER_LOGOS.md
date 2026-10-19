@@ -10,6 +10,26 @@ Source list: the 207 logos on [transpara.com/customers](https://www.transpara.co
 | C | 15 |
 | F | 47 |
 
+## Read this first
+
+**How the list was built.** The 207 names and their current web PNGs were scraped from the customers page markup (the lazy-loaded `data-retina` attributes of the logo grid). For each name, Wikimedia Commons was searched for a vector or large raster of the current primary logo; where Commons had nothing, the company's official site or brand kit was checked and any SVG found there was verified to download. Six logos that exist only as inline SVG in a company's page markup (Origin Energy, POET, PPL, Roche, SSR Mining, plus a monochrome Roche hexagon) were extracted and saved under `vector/` in this folder.
+
+**How to read a row.**
+- *Best source* links the page the file lives on (a Commons file page, or the company's site). Use it when a direct link misbehaves.
+- *Direct file* is the download. For Commons files the URL is derived from the file name; 35 of 82 were spot-checked and all resolved, the rest could not be checked because Wikimedia rate-limited the checker. If one fails, the file page beside it will not.
+- *Notes* carry the things that bite at print time: renamed companies, successor brands, white-only artwork, historic logos.
+
+**Before you send anything to a printer.**
+- **Successor brands.** Some rows can only offer the company's current identity, which may not match the logo on the web page: Brand Energy is now BrandSafway, Heidelberg Cement is Heidelberg Materials (and Lehigh Hanson Essroc is Heidelberg Materials North America), Hellenic Petroleum is HELLENiQ ENERGY, MHWirth is HMH, Microdyn-Nadir is MANN+HUMMEL, NaturEner is BHE Montana, RockTenn and WestRock are now Smurfit Westrock, Total is TotalEnergies, Tesoro became Andeavor then Marathon, Dundee Precious Metals is DPM Metals, CONACYT is now SECIHTI, Dead Sea Works shows the ICL parent mark. Decide per customer whether you want the logo as it was when they bought, or as it is now.
+- **Wordmark only.** Shell's pecten emblem is copyrighted and not on Commons; the row links the text wordmark. The emblem comes from Shell's brand portal (registration required).
+- **White-only artwork.** Several official SVGs are the white header version (NAES "Light", Partners In Performance, Visy, Riedel's official file, CAESB PNG, Halifax Water). They need recoloring on a light page; the notes say which.
+- **Historic uploads.** A few Commons vectors date from 2008-2012 annual reports (Devon Energy, PSEG, Con Edison alternate, Research In Motion). Compare with the company's current mark before use.
+- **Trademark.** Commons' "public domain" tag is a copyright assessment of simple text logos. It says nothing about trademark. These are customer marks; use them under whatever logo-use permission your customer agreements grant.
+
+**Why 47 rows are still grade F.** Most are defunct brands with dead websites (Dynegy, Equipower, Sithe Global, Canexus, Limetree Bay, Post Rock, Alacer Gold, SP Fiber, Duet Group, GASCO), small private or regional operators with no vector anywhere public (Telemetrik, River Stone, RR Maritime, MR Deepwater Subsea, Wilmette Water, Seneca Generation, Usina Cerradao, Usina Santa Adelia), or live sites that block automated fetches (Sappi, Tweed Shire Council, Mohawk Paper, Al Safi Danone, Mengniu). The last group will open in a normal browser, so a person with a mouse can close most of that gap in an afternoon. Two names could not be identified with confidence from the web PNG alone: LCP (a green/orange hexagonal mark, not Lane Clark & Peacock) and NTS (assumed to be Nova Transportadora do Sudeste).
+
+**Grade F list:** ABL Technic, Al Safi Danone, Alacer Gold, Baggio, Berkshire Power, Canexus, Centamin Sukari, City of Vancouver, Daesang, Dolan, Duet Group, Dynegy, Eloque, Enex Testlab, Equipower, Etesa, GASCO, Intercap Energy, IPSC Intermountain Power, LCP, Limetree Bay Refining, Mengniu, Mohawk Paper, MR Deepwater Subsea, NATPET, Nolte Holzwerkstoff, Pioneer Foods, Post Rock Energy, Potash, Produquimica, Rawec, River Stone, RR Maritime, SADA, Sappi, Seneca Generation, Sithe Global, SP Fiber Technologies, Sukari Gold Mines, Talen Energy, Telemetrik, Tianyou, Tweed Shire Council, Usina Cerradao, Usina Santa Adelia, UT - Unidad de Transacciones, Wilmette Water
+
 ## A
 | Company | Grade | Format | Best source | Direct file | Notes | Transpara PNG |
 |---|---|---|---|---|---|---|
